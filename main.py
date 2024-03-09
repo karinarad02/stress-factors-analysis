@@ -33,6 +33,10 @@ explained_variance_ratio = pca.explained_variance_ratio_
 print("Raportul varianței explicative:")
 print(explained_variance_ratio)
 
+principal_components_vectors = pca.components_
+print("Vectorii proprii asociați componentelor principale:")
+print(principal_components_vectors)
+
 # Plot varianță cumulativă
 plt.plot(np.cumsum(explained_variance_ratio))
 plt.title('Plot varianță cumulativă')

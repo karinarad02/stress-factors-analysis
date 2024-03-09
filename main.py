@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data from the CSV file
-df = pd.read_csv('StressLevelDataset2.csv')
+df = pd.read_csv('StressLevelDataset.csv')
 
 # Display the first few rows of the data
 print(df.head())
